@@ -1,0 +1,243 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 10px;
+	font-family: 'Montserrat', sans-serif;
+	scroll-behavior: smooth;
+}
+
+a{
+	text-decoration: none;
+	color:white;
+	transition: 0.5s;
+}
+li{
+	list-style: none;
+	display: inline-block;
+	padding: 0 2rem;
+	font-size: 1.5rem;
+	/* color: crimson; */
+	font-weight: bold;
+	text-transform: uppercase;
+
+}
+.header{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	height: 5rem;
+	background-color: rgba(12, 12, 12, 0.24);
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+	/* opacity: 0.5; */
+}
+.nav-bar{
+	width: 50%;
+	text-transform: uppercase;
+	text-align: center;
+	cursor: pointer;
+
+}
+.nav-bar span{
+	color: crimson;
+}
+.nav-list{
+	width: 50%;
+}
+.nav-list a:hover{
+	color: crimson;	
+}
+.hero {
+	height: 100rem;
+	width: 100%;
+	/* margin-top: 5rem; */
+	background-image: linear-gradient(
+		rgba(0, 0, 0, 0.6), 
+		rgba(0, 0, 0, 0.6)
+	  ),url(./img/hero-bg.png);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	/* filter:brightness(60%); */
+}
+.hero-information{
+	position: absolute;
+	top: 40%;
+	left: 30%;
+}
+.hero-information h1{
+	font-size: 5rem;
+	font-weight:bold;
+	color: white;
+
+}
+.hero-information .hero-name{
+	color: crimson;
+	text-transform: uppercase;
+	margin-bottom: 2rem;
+}
+.hero-information .cta{
+	padding: 1rem;
+	font-size: 3rem;
+	border: solid 1px crimson;
+	color: crimson;
+	text-transform: uppercase;
+}
+.hero-information .cta:hover{
+	color: white;
+	background-color: crimson;
+}
+.service{
+	margin: 2rem 0;
+	width: 100%;
+}
+.service-top {
+	width: 30%;
+	margin: 0 auto;
+	text-align: center;
+}
+.service-top .service-tittle{
+    font-weight: 300;
+	font-size: 4rem;
+    color: black;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    text-align: center;
+
+}
+.service-tittle span{
+	color: crimson;
+}
+.service-top p {
+	color: black;
+    font-size: 1.4rem;
+    margin-top: 5px;
+    line-height: 2.5rem;
+    font-weight: 300;
+    letter-spacing: 0.05rem;
+	margin-bottom: 3rem;
+}
+.service-bottom{
+	width: 70%;
+    margin: 0 auto;
+	display: flex;
+}
+.service-item{
+	margin-right: 3rem;
+	width: 100%;
+	height: 35rem;
+	background-image:linear-gradient(
+		rgba(0, 0, 0, 0.6), 
+		rgba(0, 0, 0, 0.6)
+	  ), url(./img/img-1.png);
+	border-radius: 2rem;
+}
+.service-item h2 {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+	padding-left: 1rem;
+}
+.service-item p {
+    color: white;
+    text-align: left;
+	line-height: 2rem;
+	padding-left: 1rem;
+	font-size: 1.4rem;
+}
+.contact{
+	margin: 5rem 0;
+	width: 100%;
+}
+.contact-tittle{
+	width: 30%;
+	margin: 0 auto;
+	font-weight: 300;
+    color: black;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    text-align: center;
+	font-size: 4rem;
+}
+.contact-tittle span{
+	color: crimson;
+}
+.contact-items{
+	width: 60%;
+	margin: 0 auto;
+	display: flex;
+}
+.contact-item {
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    box-shadow: 0px 0px 18px 0 #0000002c;
+    transition: 0.3s ease box-shadow;
+}
+.contact-item h1{
+	font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.contact-item h2{
+	font-size: 1.3rem;
+    line-height: 2rem;
+    font-weight: 500;
+}
+.contact-item:hover {
+	box-shadow: 0px 0px 5px 0 #0000002c;
+	cursor: pointer;
+}
+.contact-info{
+	width: 60%;
+	text-align: left;
+	padding-left: 1rem;
+}
+.footer {
+	margin-bottom: -2rem;
+    height: 22rem;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+	text-align: center;
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+.brand h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: white;
+	letter-spacing: 0.2rem;
+}
+.brand h2{
+	color: white;
+	font-weight: 300;
+	font-size: 1.5rem;
+}
+.brand span{
+	color: crimson;
+}
+.footer-icons{
+	margin-top: 1rem;
+	display: flex;
+	justify-content: center;
+}
+.footer-icons img{
+	width: 5rem;
+	object-fit: cover;
+	margin-right: 1rem;
+	filter: grayscale(1);
+}
