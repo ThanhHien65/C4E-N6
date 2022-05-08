@@ -3,7 +3,7 @@ if (isNaN(getinput)) {
     alert('It is not a number'); 
 } else if (getinput === 0) {
     alert('0 x n = 0 ');
-} else if (getinput > 9) {
+} else if (getinput > 9 || getinput <= -1) {
     alert('please enter a value 1 --> 9');
 } else{
     let createtittle = document.createElement("h2")
