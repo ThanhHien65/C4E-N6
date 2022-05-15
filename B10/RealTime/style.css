@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:ital,wght@0,400;0,700;1,300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(90deg, #1cb5e0 0%, #16be16 100%);
+}
+.Application {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  color: white;
+  width: 50rem;
+  height: 6rem;
+  align-items: center;
+  background-color: black;
+  border-radius: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.GetDay {
+  margin: 0 auto;
+  text-align: center;
+}
+.day {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+.tittle {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+.GetHour {
+  margin: 0 auto;
+  text-align: center;
+}
+.Hour {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+.GetMinute {
+  margin: 0 auto;
+  text-align: center;
+}
+.minutes {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+.GetSeconds {
+  margin: 0 auto;
+  text-align: center;
+}
+.second {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
