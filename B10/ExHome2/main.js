@@ -9,4 +9,7 @@ a = [];
 Object.entries(obj).forEach((key, value) => {
   a.push(key[0].toUpperCase());
 });
+for (key in obj){
+  a.push(key.toUpperCase())
+}
 console.log(a);
